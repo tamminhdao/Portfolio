@@ -1,0 +1,75 @@
+* {
+font-family: 'Yesteryear', cursive;
+}
+
+body {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d6f9ff+0,9ee8fa+100;Blue+3D */
+background: -moz-linear-gradient(top, #e6f6ff 0%,#0074b3 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,#e6f6ff 0%,#0074b3 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,#e6f6ff 0%,#0074b3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e6f6ff', endColorstr='#0074b3',GradientType=0 ); /* IE6-9 */
+}
+
+header {
+    margin-top: 5%; 
+}
+
+footer {
+    margin-bottom: 5%;
+}
+
+/***************************
+            HEADER
+****************************/
+.logo {
+    width: 100px;
+    height: 100px;
+ }
+ 
+.title h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 4em;
+}
+.title h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+@media (min-width: 1px) and (max-width: 420px) {
+    .logo {
+        display: none;
+    }
+    .title {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/***************************
+      FEATURED WORK
+****************************/
+.project_title {
+    margin-bottom: 0;
+}
+
+.link a {
+    color: black;
+}
+
+
+/***************************
+            FOOTER
+****************************/
+
+footer ul{
+    list-style-type: none;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline-block;
+}
+
