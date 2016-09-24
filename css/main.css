@@ -26,25 +26,30 @@ footer {
     height: 100px;
  }
  
-.title h1 {
+.name {
     margin-top: 0;
     margin-bottom: 0;
     font-size: 4em;
 }
-.title h2 {
+
+.tagline {
     margin-top: 0;
     margin-bottom: 0;
 }
 
 @media (min-width: 1px) and (max-width: 420px) {
+    /* Make the logo disappear in mobile device
     .logo {
         display: none;
     }
+    */
+
     .title {
         width: 100%;
         text-align: center;
     }
 }
+
 
 /***************************
       FEATURED WORK
@@ -53,7 +58,7 @@ footer {
     margin-bottom: 0;
 }
 
-.link a {
+.link {
     color: black;
 }
 
@@ -72,4 +77,5 @@ footer ul{
 footer ul li {
     display: inline-block;
 }
+
 
